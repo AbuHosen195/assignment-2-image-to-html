@@ -1,55 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class-2 | image to html</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <!-- google font cdn link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Class-2 | image to html</title>
-  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
-  <!-- google font cdn link  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
 
-  <!-- custom css file  -->
-  <link rel="stylesheet" href="css/style.css">
-</head>
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-  <!-- header menu section start-->
+  <body>
+    <!-- header menu section start-->
 
-  <header class="header-section">
-    <div class="nav">
-      <div class="logo">
-        <img src="./Images/logo.png" alt="">
+    <header class="header-section">
+      <div class="container">
+        <div class="nav clearfix">
+          <div class="logo">
+            <img src="./Images/logo.png" alt="" />
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#">Demos</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Documentations</a></li>
+            </ul>
+          </div>
+          <div class="btn">
+            <button>Purchase Them $29</button>
+          </div>
+        </div>
       </div>
-      <div class="menu">
-        <ul>
-          <li><a href="#">Demos</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Documentations</a></li>
-        </ul>
-      </div>
-      <div class="btn">
-        <button>Purchase Them $29</button>
+    </header>
+    <!-- header menu section end -->
+
+    <!-- ******* banner Section Start ******* -->
+    <div class="banner-section">
+      <div class="container clearfix">
+        <div class="banner-left-text">
+          <h1>Minimal Content, Focused Blog & Magazine</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit,
+            ab voluptate ea quos ratione nostrum?
+          </p>
+          <ul class="social-menu">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="banner-right-image">
+          <img src="./Images/img1.png" alt="Banner Image" />
+        </div>
       </div>
     </div>
-  </header>
-  <!-- header menu section end -->
+    <!-- ******* banner Section End ******* -->
 
-  <!-- ******* banner Section Start ******* -->
-  <div class="banner-section">
-    <div class="container">
-      <div class="banner-left-text">
-        <h1>Minimal Content, Focused Blog & Magazine</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, ab voluptate ea quos ratione nostrum?</p>
+    <!-- ******* demo Section start ******* -->
+
+    <div class="demo-section">
+      <div class="container clearfix">
+        <div class="demo-title">
+          <h2>Our Stunning demo</h2>
+          <p>
+            Start with a unique demo to create an awesome personal blog,
+            magazine or focused content site
+          </p>
+        </div>
       </div>
-      <div class="banner-right-image">
-        <img src="./Images/img1.png" alt="Banner Image">
+      <div class="features">
+        <div class="card">
+          <img src="./Images/D1.png" alt="" />
+          <h4>Classic</h4>
+        </div>
+        <div class="card">
+          <img src="./Images/D2.png" alt="" />
+          <h4>Shop</h4>
+        </div>
+        <div class="card">
+          <img src="./Images/D3.png" alt="" />
+          <h4>Dark mode</h4>
+        </div>
+        <div class="card">
+          <img src="./Images/D4.png" alt="" />
+          <h4>Minimal</h4>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- ******* banner Section End ******* -->
-</body>
-
+    <!-- ******* demo Section End ******* -->
+  </body>
 </html>
