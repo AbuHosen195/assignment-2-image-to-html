@@ -19,7 +19,9 @@ body {
   width: 1140px;
   margin: 0 auto;
 }
-
+.text-center {
+  text-align: center;
+}
 li {
   list-style-type: none;
 }
@@ -94,7 +96,10 @@ li {
   margin-bottom: 60px;
 }
 
-.social-menu li a i {
+/* Base styling */
+
+.banner-left-text ul li {
+  display: inline-block;
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -108,6 +113,9 @@ li {
   transition: all 0.5s;
 }
 
+.banner-left-text ul li:hover {
+  background-color: black;
+}
 .banner-right-image img {
   width: 100%;
   height: auto;
@@ -120,23 +128,28 @@ li {
 .demo-title {
   margin-top: 200px;
 }
-.demo-title h2 {
+.demo-title h2,
+.features-title h2 {
   font-size: 25px;
   font-weight: bold;
-  margin-bottom: 18px;
+  /* margin-bottom: 8px; */
 }
-.demo-title p {
+.demo-title p,
+.features-title p {
   font-style: italic;
   color: #00000093;
   width: 55%;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
 }
 .features {
   display: flex;
+}
+.features-title p {
+  padding-bottom: 35px;
 }
 .card {
   margin: 0 15px;
@@ -166,4 +179,83 @@ li {
   width: 1px;
   height: 70px;
   background: #9c9797;
+}
+/* feature section css start */
+.features-title {
+  text-align: center;
+  margin-top: 300px;
+}
+.features-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.features-content {
+  text-align: center;
+  padding: 30px 20px;
+  margin-right: 25px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+.features-content h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3d4144;
+}
+.features-content p {
+  flex: 14px;
+  line-height: 24px;
+  color: #00000093;
+}
+.features-content i {
+  color: #ff6162;
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.feature-row {
+  margin-top: 25px;
+}
+.footer-section {
+  background-color: #292640;
+  margin-top: 100px;
+  padding: 100px;
+  position: relative;
+}
+.footer-content {
+  width: 50%;
+  margin: 0 auto;
+}
+.footer-content h2 {
+  color: #fff;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+.footer-content img {
+  width: 100px;
+  height: auto;
+  margin-top: 40px;
+}
+.footer-section::after {
+  content: "\f30c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  color: #292640;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  background-color: #8d8b98;
+  border-radius: 50%;
+  text-align: center;
 }
