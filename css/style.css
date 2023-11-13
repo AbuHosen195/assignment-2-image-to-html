@@ -107,12 +107,6 @@ li {
   font-weight: 500;
   transition: all 0.5s;
 }
-.social-menu li a i:hover {
-  color: #ff6162;
-  background-color: #4b6873;
-  transform: scale(1.4);
-  transition: all 0.5s;
-}
 
 .banner-right-image img {
   width: 100%;
