@@ -257,7 +257,7 @@ li {
   margin-top: 40px;
 }
 .arrow {
-  position: absolute;
+  position: fixed;
   bottom: 15px;
   right: 20px;
   color: #292640;
@@ -267,10 +267,12 @@ li {
   background-color: #8d8b98;
   border-radius: 50%;
   text-align: center;
+  z-index: 1;
   transition: all 0.5s;
+  display: none;
 }
 .arrow:hover {
   cursor: pointer;
-  transform: scaleY(1.5);
+  transform: scale(1.2);
   transition: all 0.5s;
 }
